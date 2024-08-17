@@ -1,0 +1,37 @@
+{
+  "name": "break_infinity_complex",
+  "version": "1.2.1",
+  "description": "The complex number package for Decimal (break_infinity.js)",
+  "main": "dist/break_infinity_complex.umd.js",
+  "module": "dist/break_infinity_complex.esm.js",
+  "unpkg": "dist/break_infinity_complex.min.js",
+  "jsdelivr": "dist/break_infinity_complex.min.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aquamarine309/break_infinity_complex.git"
+  },
+  "keywords": [
+    "complex",
+    "decimal"
+  ],
+  "dependencies": {
+    "break_infinity.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jshint": "^2.9.1"
+  },
+  "peerDependencies": {
+    "break_infinity.js": "^2.0.0"
+  },
+  "author": "aquamarine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aquamarine309/break_infinity_complex/issues"
+  },
+  "homepage": "https://github.com/aquamarine309/break_infinity_complex#readme"
+}
